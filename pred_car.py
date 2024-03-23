@@ -1,5 +1,6 @@
 import pandas as pd
-df = pd.read_excel("C:/Users/evfat/Documents/btk_odev/Ders9/cars.xls")
+#df = pd.read_excel("C:/Users/evfat/Documents/btk_odev/Ders9/cars.xls")
+df=pd.read_excel("C:/Users/evfat/Desktop/btk2/cars.xls")
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
